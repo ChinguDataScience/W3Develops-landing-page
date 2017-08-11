@@ -10,7 +10,42 @@
 <!--The background-size code makes the backroundpicture cover the entire screen as 1 whole picture-->
 <!--i made a style class for the h1 element-->
 <!--the p element makes all paragraphs white--><!--the style attributes in our header tags also make theirntext white but just for those individual header tags-->
+<!--menu bar is for the rey menu bar design-->
        <style>
+
+       #menubar{
+           height: 40px;
+
+
+       }
+       #menubar ul{
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+            background-color: black;;
+       }
+       #menubar li{
+           float: left;
+
+       }
+       #menubar li a{
+           display: block;
+           text-align: center;
+           padding: 10px 30px;
+           text-decoration: none;
+           color: white;
+       }
+
+       #menubar li a:hover:not(.active){
+
+           color: #000000;
+       }
+       .active{
+           background-color: #000000;
+           color: white;
+       }
+
 
        p {color:orange;}
 
@@ -35,20 +70,25 @@
     <div id="menubar">
       <ul>
           <li>
-              <a class="active" href="home">Home</a>
+              <a class="active" href="Home">Home</a>
           </li>
              <li>
-              <a href="Photos">Photos</a>
+              <a href="Tutorials">Tutorials</a>
           </li>
              <li>
-              <a href="Devices">Devices</a>
+              <a href="Practice">Practice</a>
           </li>
              <li>
-              <a href="contect">Contect</a>
+              <a href="Projects">Projects</a>
+          </li>
+          <li style="float:right">
+          <a href="About">About</a>
           </li>
              <li style="float:right">
-              <a  href="about">About</a>
+              <a  href="Contact">Contact</a>
           </li>
+
+
       </ul>
     </div>
 
