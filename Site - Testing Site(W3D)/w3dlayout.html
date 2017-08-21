@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html>
+
+<!--HEAD STARTS HERE-->
+
   <head>
+    <!--The link element below with the href attribute CSS/Mainbody.css links to a external css folder & brings the css effects in that folder onto this page, without needing to clutter this page with any css. Basically we gave css its own folder and then summoned it to display here on this page.-->
     <link href="CSS/Mainbody.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
-    <title>W3D Clean Layout Tut</title>
+    <title>W3Develops</title>
+
+    <style>   html {
+    background: url(w3develops.image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }</style>
+
   </head>
+
+  <!--BODY STARTS HERE-->
+
   <body>
 <div id="Container">
   <div id="Header"></div>
-  <div id="Menu"></div>
+  <div id="Menubar">
+    <ul>
+
+        <li>
+            <a class="active" href="Home">W3DEVELOPS🔥</a>
+        </li>
+
+           <li>
+            <a href="Tutorials">Tutorials</a>
+        </li>
+
+           <li>
+            <a href="Practice">Practice</a>
+        </li>
+
+           <li>
+            <a href="Projects">Projects</a>
+        </li>
+
+        <li style="float:right">
+        <a href="Login">Login</a>
+        </li>
+
+        <li>
+  <li style="float:right">
+          <a href="Search"><form><input type="text" placeholder="Search..." maxlength="20" id="search"><input type="submit" value="go"></form></a>
+        </li>
+
+    </ul>
+  </div>
   <div id="Sidebar"></div>
   <div id="Mainbody"></div>
-  <div id="Footer"></div>
+  <div id="Footer">
+    <p id="footparg"><a href="home">Home ||</a>  <a href="About">About ||</a>  <a href="Contact">Contact ||</a>  <a href="Contribute">Contribute ||</a>  <a href="Donate">Donate</a></p>
+
+    <p id="copy">&copy;Designed By Jonathan Jackson</p> </div>
+</div>
 </div>
   </body>
 </html>
