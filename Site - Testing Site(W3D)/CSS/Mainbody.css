@@ -8,9 +8,12 @@
 }
 
 #Header {
-  height: 150px;
+  height: 115px;
   background-color: #000000;
+  text-align: center;
 }
+
+
 
 #Menubar {
   height: 40px;
@@ -63,11 +66,13 @@ color: white;
 
 #Mainbody {
   width: 700px;
-  height: 400px;
+  min-height: 400px;
   background-color: rgba(255, 255, 255, 0.5);
   float: right;
 
 }
+
+
 
 #Footer {
   height: 60px;
