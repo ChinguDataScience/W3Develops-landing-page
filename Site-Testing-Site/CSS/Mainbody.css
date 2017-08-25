@@ -14,6 +14,10 @@
 
 }
 
+.text-center {
+  text-align: center;
+}
+
 .image-header {
  width: 100%;
  height: auto;
